@@ -1,4 +1,4 @@
-import React from "react";
+
 import logo from "../assets/IMG_5434.png";
 import calcImg from "../assets/cal-img.png";
 import bigS from "../assets/big-sss.svg";

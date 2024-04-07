@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import bigS from "../assets/big-sss.svg";
 import jsol from "../assets/jsol.png";
 import smart from "../assets/smart-validator.svg";
@@ -6,7 +6,6 @@ import upImg from "../assets/upAndOthers.svg";
 import frog from "../assets/frog.svg";
 import shark from "../assets/shark.svg";
 import alphaDev from "../assets/IMG_5460.png";
-import libraDark from "../assets/libra_dark.png";
 import cyberscope from "../assets/raydium-removebg-preview.png";
 import stake from "../assets/cyberscope.png";
 import solImg from "../assets/solSolImg.svg";

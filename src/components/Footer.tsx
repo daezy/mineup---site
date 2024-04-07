@@ -1,4 +1,4 @@
-import React from "react";
+
 import solanaFound from "../assets/solana-found.svg";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
