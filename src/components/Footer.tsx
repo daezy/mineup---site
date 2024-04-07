@@ -1,4 +1,3 @@
-
 import solanaFound from "../assets/solana-found.svg";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -16,7 +15,7 @@ const Footer = () => {
                 <img src={solanaFound} className="w-full" alt="" />
               </div>
               <div className="mt-7 text-[11px] text-white">
-                &copy; Copyright 2024 jpool.one. All rights reserved.
+                &copy; Copyright 2024 Alpha developments. All rights reserved.
               </div>
             </div>
           </div>
