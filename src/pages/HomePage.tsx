@@ -17,7 +17,7 @@ import { FaChevronUp } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa6";
 
 const HomePage = () => {
-  const [chooseStake, setChooseStake] = useState<Boolean>(true);
+  const [chooseStake, setChooseStake] = useState<boolean>(true);
   return (
     <div className="home-section bg-slate-950 lg:mt-[-42px] pb-10">
       <div className="container mx-auto px-4">
@@ -313,7 +313,7 @@ const HomePage = () => {
                       <ul>
                         <li className="text-[12px]">• Connect your wallet</li>
                         <li className="text-[12px]">
-                          • Enter the amount of SOL you want to mine
+                          • Enter the amount of SOL you want to mine
                         </li>
                         <li className="text-[12px]">• Click MINE NOW</li>
                         <li className="text-[12px]">
