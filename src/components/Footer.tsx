@@ -1,4 +1,4 @@
-import solanaFound from "../assets/solana-found.svg";
+import alphaDev from "../assets/IMG_5460 (1).png";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaDiscord } from "react-icons/fa";
@@ -9,13 +9,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 ">
         <div className="flex md:flex-row flex-col items-center border-t border-white  md:justify-between justify-center py-5">
           <div className="md:block flex flex-col items-center justify-center">
-            <p className="pb-5 text-white">Backend By</p>
+            <p className="pb-5 text-white">Backed By</p>
             <div className="md:block flex flex-col items-center justify-center">
               <div className="w-[200px]">
-                <img src={solanaFound} className="w-full" alt="" />
+                <img src={alphaDev} className="w-full" alt="" />
               </div>
               <div className="mt-7 text-[11px] text-white">
-                &copy; Copyright 2024 Alpha developments. All rights reserved.
+                &copy; Copyright 2024 Mine up. All rights reserved.
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="mt-7 text-[11px] text-white">
-              Documentation | Pool Info | Download JPool Logos
+              Documentation | Pool Info | Download Mine up Logos
             </div>
           </div>
         </div>
