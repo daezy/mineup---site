@@ -13,7 +13,7 @@ import dexScreener from "../assets/dex-screener-removebg-preview.png";
 
 import profit from "../assets/profit.svg";
 import { ImYoutube2 } from "react-icons/im";
-import { FaChevronUp } from "react-icons/fa6";
+// import { FaChevronUp } from "react-icons/fa6";
 import { FaArrowDown } from "react-icons/fa6";
 
 const HomePage = () => {
@@ -140,14 +140,7 @@ const HomePage = () => {
                 </div>
                 <div className="flex pb-1 border-b border-gray-400 items-center justify-between my-3">
                   <div className="">
-                    <p className="text-[25px] font-semibold">$180.84</p>
-                  </div>
-                  <div className="flex  items-center gap-1 p-1 rounded-md bg-green-500">
-                    <FaChevronUp className="text-[#fff] text-[13px]" />
-
-                    <p className="text-[13px]  leading-none text-[#fff]">
-                      1.88%
-                    </p>
+                    <p className="text-[25px] font-semibold">$135.79</p>
                   </div>
                 </div>
                 <div className="flex  justify-between">
@@ -327,9 +320,6 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="absolute bottom-5 mt-20 right-[10px]">
-                  <p className="text-[#455a64] text-[13px] ">
-                    1 SOL ~ 0.85284 MINE UP
-                  </p>
                   <button className="bg-[#FF9800] px-4 py-2 text-white text-[16px] rounded-full">
                     CONNECT WALLET
                   </button>

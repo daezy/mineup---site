@@ -1,4 +1,3 @@
-
 import logo from "../assets/IMG_5434.png";
 import calcImg from "../assets/cal-img.png";
 import bigS from "../assets/big-sss.svg";
@@ -27,13 +26,11 @@ const Navbar = () => {
                   <div>
                     <p className="font-semibold">
                       {" "}
-                      329.3K /<span>1.5M</span>
+                      0K /<span>0M</span>
                     </p>
                   </div>
                   <div>
-                    <p className="font-semibold text-[#5d5d5d]">
-                      ≈&nbsp;$58.6M
-                    </p>
+                    <p className="font-semibold text-[#5d5d5d]">≈&nbsp;$0</p>
                   </div>
                   <div className="h-[9px] flex rounded-[12px] bg-[#FF9800]">
                     <div
@@ -45,9 +42,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className="pt-2 ">
-              <p className="lg:text-[15px] text-[12px] ">
+              <p className="lg:text-[15px] text-[12px] text-white">
                 AVAILABLE LIQUIDITY:{" "}
-                <span className="font-semibold ">7,474.30 sol</span>
+                <span className="font-semibold">0 sol</span>
               </p>
             </div>
           </div>
@@ -57,20 +54,11 @@ const Navbar = () => {
             <div className="flex flex-col items-center relative">
               <p className="text-[14px] text-[#455a64]">APY</p>
               <div>
-                <p className="text-[#455a64] font-semibold">≈21.06%</p>
+                <p className="text-[#455a64] font-semibold">≈500%</p>
               </div>
 
               <div className="absolute right-[-160px] rounded-md p-3 bg-slate-950 w-[150px]">
-                <p className="text-white text-[10px]">≈21.06% Mining APY</p>
-                <p className="text-white text-[10px]">+ ≈21.06% Mining DeFi</p>
-              </div>
-            </div>
-            <div className="w-[120px] h-[120px] bg-[#FF9800] mt-1  rounded-full flex items-center justify-center z-[99]">
-              <div className="w-[95px] leading-tight h-[95px] bg-[#fff] flex flex-col items-center justify-center rounded-full">
-                <p className="text-[10px] text-[#455a64]">EPOCH</p>
-                <p className=" font-semibold">598</p>
-                <p className="text-[#455a64] font-semibold">3:38</p>
-                <p className="text-[#455a64] font-semibold">23</p>
+                <p className="text-white text-[10px]">COMING SOON</p>
               </div>
             </div>
           </div>
